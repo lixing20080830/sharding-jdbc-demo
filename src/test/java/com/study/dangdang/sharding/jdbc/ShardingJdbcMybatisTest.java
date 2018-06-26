@@ -30,19 +30,21 @@ public class ShardingJdbcMybatisTest {
     @Test
     public void testUserInsert() {
         User u = new User();
-        u.setUserId(18);
+        u.setUserId(1);
         u.setAge(25);
-        u.setName("war3");
+        u.setName("啊啊啊啊啊");
         Assert.assertEquals(userService.insert(u), true);
     }
     
     @Test
     public void testStudentInsert() {
-        Student student = new Student();
-        student.setStudentId(21);
-        student.setAge(21);
-        student.setName("hehe");
-        Assert.assertEquals(studentService.insert(student), true);
+        for(int i=0;i<100;i++) {
+            Student student = new Student();
+            student.setStudentId(21);
+            student.setAge(21);
+            student.setName("aaa");
+            Assert.assertEquals(studentService.insert(student), true);
+        }
     }
 
     @Test
@@ -50,7 +52,7 @@ public class ShardingJdbcMybatisTest {
         List<User> users = userService.findAll();
         if(null != users && !users.isEmpty()){
             for(User u :users){
-                System.out.println(u);
+                System.out.println("输出结果，姓名是："+u.getName());
             }
         }
     }
