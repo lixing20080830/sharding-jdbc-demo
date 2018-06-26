@@ -3,6 +3,8 @@
 Maven项目：@Override is not allowed when implement interface method
 
 由于我的项目是maven类型项目，所以在pox.xml的<build></build>标签中添加如下代码，即可解决问题。
+
+
   <build>
     <finalName>spirngMVC</finalName>
     <plugins>
@@ -20,6 +22,8 @@ Maven项目：@Override is not allowed when implement interface method
     </plugins>
   </build>
 </project>
+
+
 
 我的本地数据库信息数据库：
 用户名：root
