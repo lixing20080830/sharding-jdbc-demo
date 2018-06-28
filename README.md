@@ -6,24 +6,22 @@ Maven项目：@Override is not allowed when implement interface method
 https://blog.csdn.net/chengyuqiang/article/details/54600499
 
 
-  <build>
-    <finalName>spirngMVC</finalName>
-    <plugins>
-      <!-- 编码和编译和JDK版本 -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-          <encoding>utf8</encoding>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-</project>
-
+  <build><br>
+    <finalName>spirngMVC</finalName><br>
+    <plugins><br>
+      <!-- 编码和编译和JDK版本 --><br>
+      <plugin><br>
+        <groupId>org.apache.maven.plugins</groupId><br>
+        <artifactId>maven-compiler-plugin</artifactId><br>
+        <version>2.3.2</version><br>
+        <configuration><br>
+          <source>1.8</source><br>
+          <target>1.8</target><br>
+          <encoding>utf8</encoding><br>
+        </configuration><br>
+      </plugin><br>
+    </plugins><br>
+  </build><br>
 
 
 我的本地数据库信息数据库：<br>
