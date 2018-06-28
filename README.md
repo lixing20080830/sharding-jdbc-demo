@@ -26,6 +26,6 @@ https://blog.csdn.net/chengyuqiang/article/details/54600499
 
 
 
-我的本地数据库信息数据库：
-用户名：root
-数据库密码：lixing20080830
+我的本地数据库信息数据库：<br>
+用户名：root<br>
+数据库密码：lixing20080830<br>
